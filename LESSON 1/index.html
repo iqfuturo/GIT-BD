@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,8 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo"><img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа Бородинский"></a>
+      <a class="main-header-logo"><img src="img/index-logo.svg" width="368" height="153"
+          alt="Логотип барбершопа Бородинский"></a>
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="news.html">Новости</a></li>
@@ -33,7 +35,8 @@
       <ul class="features-list">
         <li class="features-item">
           <h3>Быстро</h3>
-          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной
+            стрижки-минутки!</p>
         </li>
         <li class="features-item">
           <h3>Круто</h3>
@@ -41,10 +44,12 @@
         </li>
         <li class="features-item">
           <h3>Дорого</h3>
-          <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает
+            определенный статус?</p>
         </li>
       </ul>
     </section>
+
     <section class="news">
       <h2>Новости</h2>
       <ul class="news-list">
@@ -55,12 +60,14 @@
       </ul>
       <ul class="news-list">
         <li class="news-item">
-          <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+          <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши
+            стройные ряды</p>
           <time datetime="2016-01-18">18 января</time>
         </li>
       </ul>
       <a class="button" href="news.html">Все новости</a>
     </section>
+
     <section class="gallery">
       <h2>Фотогалерея</h2>
       <figure class="gallery-content">
@@ -69,17 +76,23 @@
       <span class="button gallery-button gallery-button-back">Назад</span>
       <span class="button gallery-button gallery-button-next">Вперед</span>
     </section>
+
     <section class="contacts">
       <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
-      <p>БАРБЕРШОП "БОРОДИНСКИЙ"<br>
-      Адрес: г. Санкт-Петербург, Б. Конюшенная, д.19/8 <br>
-      Телефон: +7 (812) 666-02-66</p>
-      <p>Время работы: <br>
-      пн-пт: c 10:00 до 22:00 <br>
-      сб-вс: c 10:00 до 19:00</p>
+      <p>
+        БАРБЕРШОП "БОРОДИНСКИЙ"<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д.19/8 <br>
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <p>
+        Время работы: <br>
+        пн-пт: c 10:00 до 22:00 <br>
+        сб-вс: c 10:00 до 19:00
+      </p>
       <a class="button contacts-button" href="map.html">Как проехать</a>
       <a class="button contacts-button" href="contacts.html">Обратная связь</a>
     </section>
+
     <section class="appointment">
       <h2>Записаться</h2>
       <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
@@ -95,26 +108,55 @@
         <button class="button" type="submit">ОТПРАВИТЬ</button>
       </form>
     </section>
+
   </main>
-    <footer class="main-footer">
+  <footer class="main-footer">
+
     <p>БАРБЕРШОП "БОРОДИНСКИЙ" <br> АДРЕС: Г.САНКТ-ПЕТЕРБУРГ, Б.КОНЮШЕННАЯ, Д.19/8 <br>
       <a href="map.html">КАК НАС НАЙТИ?</a><br>
       ТЕЛЕФОН: +7(495) 666-02-66
     </p>
+
     <div class="footer-social">
-        <b>Давайте дружить!</b>
-       <ul>
+      <b>Давайте дружить!</b>
+      <ul>
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
       </ul>
     </div>
+
     <p class="footer-copyright">
       <b>РАЗРАБОТАНО:</b>
       <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
-  </footer>
-  
-</body>
 
+  </footer>
+
+  <section class="modal modal-login">
+    <h1>ЛИЧНЫЙ КАБИНЕТ</h1>
+    <p>ВВЕДИТЕ ПОЖАЙЛУСТА СВОЙ ЛОГИН И ПАРОЛЬ.</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <input class="login-icon-user" type="text" name="Login" placeholder="Логин">
+      </p>
+      <p>
+        <input class="login-icon-password" type="text" name="Password" placeholder="Пароль">
+      </p>
+      <p class="login-password-info">
+        <input class="visually-hidden" type="checkbox" name="remember">
+        ЗАПОМНИТЬ МЕНЯ
+        <a class="restore" href="#">Я ЗАБЫЛ ПАРОЛЬ</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+    </form>
+    <span class="modal-close">X</span>
+  </section>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <span class="modal-close">X</span>
+  </section>
+
+</body>
 </html>
